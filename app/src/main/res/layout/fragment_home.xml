@@ -16,19 +16,14 @@
         android:layout_below="@+id/viewPage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    <ListView
+
+    <GridView
         android:id="@+id/listView"
-        android:layout_below="@+id/recycler_view"
+        android:layout_below="@id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_margin="8sp"
+        android:numColumns="2"/>
 
     <ProgressBar
         android:id="@+id/progressBar"
