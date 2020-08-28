@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
                 Intent intent;
                // intent = new Intent(SplashActivity.this, NavigationDrawerActivity.class);
                //startActivity(intent);
-                intent = new Intent(SplashActivity.this, NavDrawerActivity.class);
+                intent = new Intent(SplashActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
